@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>LEADERBOARD</h1>
+        <div class="upperpart">
+      <form action="" onsubmit="addPlayer(event)">
+     
+         <div>
+            <input type="text" placeholder="First Name" id="firstName">
+        </div>
+        <div>
+            <input type="text" placeholder="Last Name" id="lastName">
+
+        </div>
+        <div>
+
+            <input type="text" placeholder="Country" id="country">
+        </div>
+        <div>
+
+            <input type="number" name="Score" id="score" max="100" min="0" placeholder="Score">
+        </div>
+        <div>
+            <button type="submit">Add Player</button>
+        </div>
+        
+      </form>
+    </div>
+    <div class="lowerpart">
+
+        
+        <ul id="playerList">
+            
+        </ul>
+    </div>
+    </main>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
